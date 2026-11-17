@@ -1,5 +1,7 @@
 #This is custom exception for our whole ML project
 import sys 
+from src.logger import logging
+
 
 def error_messages_detail(error, error_detail: sys):
     _,_,exc_tb = error_detail.exc_info()
